@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_3_PRINT"/>
+        <attribute name="authors" value="DiegogvTEC ll"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 05:33:58 p. m."/>
+        <attribute name="created" value="RGllZ29ndlRFQyBsbDtESUVHTzI2OzIwMjUtMDgtMjY7MDU6Mjk6MzggcC4gbS47MzEyNQ=="/>
+        <attribute name="edited" value="RGllZ29ndlRFQyBsbDtESUVHTzI2OzIwMjUtMDgtMjY7MDU6MzM6NTggcC4gbS47MTszMjMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;NOMBRE DEL ESTUDIANTE:&quot;" newline="False"/>
+            <output expression="&quot;DIEGO GASTELUM&quot;" newline="True"/>
+            <output expression="&quot;NUMERO DE CONTROL:&quot;" newline="False"/>
+            <output expression="25550361" newline="True"/>
+            <output expression="&quot;EDAD:&quot;" newline="False"/>
+            <output expression="18" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
