@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_12_OPERACIONES_BOOLEANAS"/>
+        <attribute name="authors" value="DiegogvTEC ll"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 05:28:43 p. m."/>
+        <attribute name="created" value="RGllZ29ndlRFQyBsbDtESUVHTzI2OzIwMjUtMDktMDU7MDU6MjA6NTQgcC4gbS47MzExMg=="/>
+        <attribute name="edited" value="RGllZ29ndlRFQyBsbDtESUVHTzI2OzIwMjUtMDktMDU7MDU6Mjg6NDMgcC4gbS47MTszMjI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce la calificaci&#243;n:&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;FUGA A DISNEY&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;AZOTES!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
